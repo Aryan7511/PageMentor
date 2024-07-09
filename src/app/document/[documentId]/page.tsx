@@ -19,7 +19,8 @@ const SingelDocumentPage = async ({
   }
   const getDocument = await db.document.findUnique({
     where: {
-      id: params.documentId
+      id: params.documentId,
+      userId: userId
     }
   });
 

@@ -17,7 +17,9 @@ export const Dashboard = () => {
       {/* New Document */}
       <Suspense
         fallback={
-          <Loader className="flex justify-center animate-spin"></Loader>
+          <div className="flex items-center justify-center">
+            <Loader className="animate-spin" />
+          </div>
         }
       >
         <NewDocument />
@@ -26,7 +28,9 @@ export const Dashboard = () => {
       {/* Recent Document */}
       <Suspense
         fallback={
-          <Loader className="flex justify-center animate-spin"></Loader>
+          <div className="flex items-center justify-center">
+            <Loader className="animate-spin" />
+          </div>
         }
       >
         <RecentDocument />
