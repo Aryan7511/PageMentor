@@ -33,6 +33,7 @@ export default function IntroPage() {
               </div>
               <Image
                 src="/hero.gif"
+                unoptimized
                 width="550"
                 height="550"
                 alt="Hero"
