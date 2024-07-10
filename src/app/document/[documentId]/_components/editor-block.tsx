@@ -78,7 +78,9 @@ const EditorBlock: React.FC<EditorBlockProps> = ({ document }) => {
   return (
     <div className="px-4">
       <div className="flex float-right my-2 space-x-4">
-        <DrawerAI description={document.description} />
+        <DrawerAI
+          description={EditorForm.watch('description') || document.description}
+        />
         <form onSubmit={onDocumentDelete} className="flex float-right">
           <Button type="submit" variant="destructive">
             Delete
