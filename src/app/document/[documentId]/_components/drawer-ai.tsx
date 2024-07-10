@@ -18,8 +18,7 @@ interface DrawerProps {
   description: string | null;
 }
 
-const DrawerAI = ({ description }: DrawerProps) => {  
-
+const DrawerAI = ({ description }: DrawerProps) => {
   // console.log(description);
   const [open, setOpen] = useState(false);
   const [mentorSuggestion, setMentorSuggestion] = useState('');
@@ -50,7 +49,7 @@ const DrawerAI = ({ description }: DrawerProps) => {
       });
   };
 
-  console.log('mentor Suggesstion', mentorSuggestion);
+  // console.log('mentor Suggesstion', mentorSuggestion);
   return (
     <div>
       <Drawer open={open} onOpenChange={setOpen}>
