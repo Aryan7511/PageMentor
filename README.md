@@ -10,7 +10,7 @@ PageMentor is an innovative platform designed to elevate your document managemen
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 SpeakEase is built using the following technologies:
 
-[![Stack Used](https://skillicons.dev/icons?i=nextjs,typescript,tailwind,nodejs,prisma,npm,postgres)](https://skillicons.dev)
+[![Stack Used](https://skillicons.dev/icons?i=nextjs,typescript,html,tailwind,nodejs,prisma,npm,postgres)](https://skillicons.dev)
 
 ## <a name="features">🔋 **Features**</a>
 
