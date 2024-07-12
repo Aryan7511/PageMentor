@@ -8,7 +8,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'pagementor',
+  title: 'PageMentor',
   description: 'Ai assitance in page writing'
 };
 
